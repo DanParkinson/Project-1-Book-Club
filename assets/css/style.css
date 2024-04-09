@@ -14,6 +14,8 @@ body {
 }
 
 /* ------------------------------ header styles ------------------------------ */
+
+/* --------------- header box styles --------------- */
 #headerbox {
     background-color: rgb(88, 163, 153);
     padding: 0 1rem;
@@ -22,16 +24,33 @@ body {
     width: 100%;
 }
 
+/* --------------- removes hyperlinks --------------- */
 header a {
     text-decoration: none;
     color: inherit;
 }
-
+/* --------------- header Logo styles --------------- */
 #logo {
     padding-left: 10px;
     font-size: 240%;
     color: rgb(226, 244, 197);
     letter-spacing: 1px;
+}
+/* --------------- navigation bar styles --------------- */
+#navigation {
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+/* --------------- navigation spread out --------------- */
+#navigation > li {
+    margin-bottom: 1em;
+}
+
+/* --------------- navigation underline active screen page --------------- */
+.active {
+    border-bottom: 1px solid rgb(226, 244, 197);
 }
 
 /* ------------------------------ main styles ------------------------------ */
@@ -42,5 +61,5 @@ main {
 
 /* ------------------------------ footer styles ------------------------------ */
 footer {
-    background-color:  rgb(88, 163, 153);
+    background-color: rgb(88, 163, 153);
 }
