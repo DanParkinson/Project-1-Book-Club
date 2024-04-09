@@ -15,7 +15,7 @@ body {
 
 /* ------------------------------ header styles ------------------------------ */
 
-/* --------------- header box styles --------------- */
+/* -------- header box styles ---------- */
 header {
     background-color: rgb(88, 163, 153);
     padding: 0 1rem;
@@ -28,13 +28,13 @@ header {
     align-items: baseline;
 }
 
-/* --------------- removes hyperlinks --------------- */
+/* ------- removes hyperlinks --------- */
 header a {
     text-decoration: none;
     color: inherit;
 }
 
-/* --------------- header Logo styles --------------- */
+/* --------- header Logo styles --------- */
 #logo {
     padding-left: 10px;
     font-size: 180%;
@@ -42,24 +42,25 @@ header a {
     letter-spacing: 1px;
 }
 
-/* --------------- navigation bar styles and remove bulletpoints from list --------------- */
+/* -- navigation bar styles and remove bulletpoints from list -- */
 #navigation {
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
+    
 }
 
-/* --------------- navigation spread out text --------------- */
+/* ---- navigation spread out text ----- */
 #navigation > li {
     margin-bottom: 1em;
 }
 
-/* --------------- navigation underline active screen page --------------- */
+/* -- navigation underline active screen page -- */
 .active {
     border-bottom: 1px solid rgb(226, 244, 197);
 }
 
-/* --------------- navigation bar drop down menu --------------- */
+/* ---- navigation bar drop down menu ----- */
 nav {
     position: absolute;
     background-color: rgb(88, 163, 153);
@@ -71,12 +72,12 @@ nav {
     top: 100%;
 }
 
-/* --------------- navigation toggle --------------- */
+/* ---------- navigation toggle --------- */
 #nav-toggle:checked~nav {
     display: block;
 }
 
-/* --------------- navigation hides the checkbox for the toggle --------------- */
+/* --- navigation hides the checkbox for the toggle ---- */
 #nav-toggle {
     display: none;
 }
@@ -95,4 +96,49 @@ main {
 /* ------------------------------ footer styles ------------------------------ */
 footer {
     background-color: rgb(88, 163, 153);
+}
+
+/* ------------------------------ media queries (tablets and larger:768px and up) ------------------------------ */
+
+@media screen and (min-width: 768px){
+
+    /* ------------------------------ header ------------------------------ */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        
+    }
+    /* align navigation along header */
+    #navigation {
+        display: flex;
+    }
+
+    /* spread out navigation menu */
+    #navigation > li {
+        padding-left: 1rem;
+        margin: 1rem;
+    }
+
+    /* remove navigation drop down icon */
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* mkae logo syled better */
+    #logo {
+       font-size: 240%;
+       line-height: 75px;
+       margin: 0.5rem;
+
+    }
+
+    /* ------------------------------ Main Content ------------------------------ */
+
+    /* drop main content down accomodate larger header */
+    main {
+        margin-top: 92px;
+    }
 }
