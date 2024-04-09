@@ -88,10 +88,19 @@ nav {
 
 /* ------------------------------ main styles ------------------------------ */
 main {
-    background-color: rgb(168, 205, 159);
     flex: 1 0 auto;
     margin-top: 65px;
 }
+
+/* --------------- hero --------------- */
+
+#hero {
+    height:600px;
+    width: 100%;
+    background: url("../images/detective-hero-crop.png") no-repeat center center/cover;
+
+}
+
 
 /* ------------------------------ footer styles ------------------------------ */
 .socialmedia {
