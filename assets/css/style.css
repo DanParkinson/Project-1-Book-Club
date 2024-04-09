@@ -22,6 +22,11 @@ body {
     width: 100%;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* ------------------------------ main styles ------------------------------ */
 main {
     background-color: rgb(168, 205, 159);
