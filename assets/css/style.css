@@ -132,7 +132,6 @@ footer {
        font-size: 240%;
        line-height: 75px;
        margin: 0.5rem;
-
     }
 
     /* ------------------------------ Main Content ------------------------------ */
@@ -140,5 +139,13 @@ footer {
     /* drop main content down accomodate larger header */
     main {
         margin-top: 92px;
+    }
+}
+
+/* ------------------------------ media queries (laptops and larger:992px and up) ------------------------------ */
+
+@media screen and (min-width: 992px) {
+    #navigation a:hover {
+        border-bottom: 1px solid rgb(226, 244, 197);
     }
 }
