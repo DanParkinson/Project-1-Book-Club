@@ -14,16 +14,20 @@ body {
 }
 
 /* ------------------------------ header styles ------------------------------ */
-header {
-    background-color: rgb(73, 105, 137);
+#headerbox {
+    background-color: rgb(88, 163, 153);
+    padding: 0 1rem;
+    z-index: 99;
+    box-shadow: 0 2px 2px rgb(73, 105, 137);
+    width: 100%;
 }
 
 /* ------------------------------ main styles ------------------------------ */
 main {
-    background-color: rgb(88, 163, 153) ;
+    background-color: rgb(168, 205, 159);
 }
 
 /* ------------------------------ footer styles ------------------------------ */
 footer {
-    background-color: rgb(73, 105, 137);
+    background-color:  rgb(88, 163, 153);
 }
