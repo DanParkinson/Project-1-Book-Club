@@ -5,14 +5,25 @@
     box-sizing: border-box;
 }
 
+/* ------------------------------ General styles ------------------------------ */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(226, 244, 197);
+}
+
+/* ------------------------------ header styles ------------------------------ */
 header {
     background-color: rgb(73, 105, 137);
 }
 
+/* ------------------------------ main styles ------------------------------ */
 main {
     background-color: rgb(88, 163, 153) ;
 }
 
+/* ------------------------------ footer styles ------------------------------ */
 footer {
     background-color: rgb(73, 105, 137);
 }
