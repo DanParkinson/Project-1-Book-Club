@@ -29,6 +29,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
 /* --------------- header Logo styles --------------- */
 #logo {
     padding-left: 10px;
@@ -36,14 +37,15 @@ header a {
     color: rgb(226, 244, 197);
     letter-spacing: 1px;
 }
-/* --------------- navigation bar styles --------------- */
+
+/* --------------- navigation bar styles and remove bulletpoints from list --------------- */
 #navigation {
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
 }
 
-/* --------------- navigation spread out --------------- */
+/* --------------- navigation spread out text --------------- */
 #navigation > li {
     margin-bottom: 1em;
 }
@@ -51,6 +53,17 @@ header a {
 /* --------------- navigation underline active screen page --------------- */
 .active {
     border-bottom: 1px solid rgb(226, 244, 197);
+}
+
+/* --------------- navigation bar drop down menu --------------- */
+nav {
+    position: absolute;
+    background-color: rgb(88, 163, 153);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px rgb(73, 105, 137);
+    display: none;
 }
 
 /* ------------------------------ main styles ------------------------------ */
