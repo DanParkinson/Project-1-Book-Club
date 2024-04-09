@@ -18,7 +18,7 @@ body {
 /* -------- header box styles ---------- */
 header {
     background-color: rgb(88, 163, 153);
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     box-shadow: 0 2px 2px rgb(73, 105, 137);
@@ -47,11 +47,11 @@ header a {
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
-    
+
 }
 
 /* ---- navigation spread out text ----- */
-#navigation > li {
+#navigation>li {
     margin-bottom: 1em;
 }
 
@@ -94,13 +94,25 @@ main {
 }
 
 /* ------------------------------ footer styles ------------------------------ */
-footer {
-    background-color: rgb(88, 163, 153);
+.socialmedia {
+    border-top: 1px solid #496989;
+    padding: 16px 32px;
+    background-color: #58A399;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
+
+.socialmedia i {
+    font-size: 160%;
+    padding: 5px;
+    color: #E2F4C5;
+}
+
 
 /* ------------------------------ media queries (tablets and larger:768px and up) ------------------------------ */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
     /* ------------------------------ header ------------------------------ */
     nav {
@@ -109,15 +121,16 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        
+
     }
+
     /* align navigation along header */
     #navigation {
         display: flex;
     }
 
     /* spread out navigation menu */
-    #navigation > li {
+    #navigation>li {
         padding-left: 1rem;
         margin: 1rem;
     }
@@ -129,9 +142,8 @@ footer {
 
     /* mkae logo syled better */
     #logo {
-       font-size: 240%;
-       line-height: 75px;
-       margin: 0.5rem;
+        font-size: 240%;
+        line-height: 75px;
     }
 
     /* ------------------------------ Main Content ------------------------------ */
