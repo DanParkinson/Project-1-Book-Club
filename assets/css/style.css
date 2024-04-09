@@ -16,12 +16,16 @@ body {
 /* ------------------------------ header styles ------------------------------ */
 
 /* --------------- header box styles --------------- */
-#headerbox {
+header {
     background-color: rgb(88, 163, 153);
     padding: 0 1rem;
+    position: fixed;
     z-index: 99;
     box-shadow: 0 2px 2px rgb(73, 105, 137);
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* --------------- removes hyperlinks --------------- */
@@ -33,7 +37,7 @@ header a {
 /* --------------- header Logo styles --------------- */
 #logo {
     padding-left: 10px;
-    font-size: 240%;
+    font-size: 180%;
     color: rgb(226, 244, 197);
     letter-spacing: 1px;
 }
@@ -64,6 +68,21 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px rgb(73, 105, 137);
     display: none;
+    top: 100%;
+}
+
+/* --------------- navigation toggle --------------- */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/* --------------- navigation hides the checkbox for the toggle --------------- */
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 1.5rem;
 }
 
 /* ------------------------------ main styles ------------------------------ */
