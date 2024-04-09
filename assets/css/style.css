@@ -27,6 +27,13 @@ header a {
     color: inherit;
 }
 
+#logo {
+    padding-left: 10px;
+    font-size: 240%;
+    color: rgb(226, 244, 197);
+    letter-spacing: 1px;
+}
+
 /* ------------------------------ main styles ------------------------------ */
 main {
     background-color: rgb(168, 205, 159);
