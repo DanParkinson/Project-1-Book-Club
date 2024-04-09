@@ -89,6 +89,7 @@ nav {
 main {
     background-color: rgb(168, 205, 159);
     flex: 1 0 auto;
+    margin-top: 35px;
 }
 
 /* ------------------------------ footer styles ------------------------------ */
