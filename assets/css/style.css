@@ -4,3 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: rgb(73, 105, 137);
+}
+
+main {
+    background-color: rgb(88, 163, 153) ;
+}
+
+footer {
+    background-color: rgb(73, 105, 137);
+}
