@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     color: rgb(226, 244, 197);
+    background-color: rgb(73, 105, 137);
 }
 
 /* ------------------------------ header styles ------------------------------ */
@@ -106,6 +107,7 @@ main {
 #cover-text {
     background-color: rgba(73, 105, 137, 0.8);
     font-size: 130%;
+    letter-spacing: 1px;
     position: absolute;
     bottom: 30px;
     width:80%;
@@ -113,6 +115,24 @@ main {
     padding-top: 40px;
     padding-left: 10px;
 }
+
+/* --------------- reasons --------------- */
+
+#description {
+    padding: 16px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width:
+}
+
+#description > hr {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* ------------------------------ footer styles ------------------------------ */
 .socialmedia {
