@@ -18,6 +18,7 @@ body {
 /* -------- header box styles ---------- */
 header {
     background-color: rgb(88, 163, 153);
+    color: rgb(226, 244, 197);
     padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
@@ -84,6 +85,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 1.5rem;
+
 }
 
 /* ------------------------------ main styles ------------------------------ */
@@ -98,9 +100,19 @@ main {
     height:600px;
     width: 100%;
     background: url("../images/detective-hero-crop.png") no-repeat center center/cover;
-
+    position: relative;
 }
 
+#cover-text {
+    background-color: rgba(73, 105, 137, 0.8);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width:80%;
+    min-height:200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 
 /* ------------------------------ footer styles ------------------------------ */
 .socialmedia {
@@ -118,8 +130,7 @@ main {
     color: #E2F4C5;
 }
 
-
-/* ------------------------------ media queries (tablets and larger:768px and up) ------------------------------ */
+/*---------------------------- media queries (tablets and larger:768px and up) ------------------------------ */
 
 @media screen and (min-width: 768px) {
 
@@ -155,11 +166,17 @@ main {
         line-height: 75px;
     }
 
+
+
     /* ------------------------------ Main Content ------------------------------ */
 
     /* drop main content down accomodate larger header */
     main {
         margin-top: 108px;
+    }
+
+    #cover-text p {
+        font-size: 120%;
     }
 }
 
