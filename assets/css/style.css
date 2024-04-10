@@ -194,9 +194,17 @@ main {
         margin-top: 108px;
     }
 
+    /* ----------- hero ---------- */
     #cover-text p {
         font-size: 120%;
     }
+
+    /* ----------- reasons ---------- */
+
+    #description {
+        font-size: 180%;
+    }
+
 }
 
 /* ------------------------------ media queries (laptops and larger:992px and up) ------------------------------ */
