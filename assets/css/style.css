@@ -123,6 +123,7 @@ main {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
+    background-color: rgb(73, 105, 137);
 }
 
 #description > hr {
@@ -132,10 +133,32 @@ main {
     margin-bottom: 10px;
 }
 
+/* --------------- events --------------- */
+
+#events img {
+    max-width: 70vw;
+    max-height: 70vh;
+    
+}
+
+#events div {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#events h3 {
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+
+
+
+
 
 /* ------------------------------ footer styles ------------------------------ */
 .socialmedia {
-    border-top: 1px solid #496989;
+    border-top: 1px solid rgb(73, 105, 137);
     padding: 16px 32px;
     background-color: #58A399;
     text-align: center;
