@@ -21,6 +21,22 @@ hr {
     margin-bottom: 10px;
 }
 
+h3 {
+    text-transform: uppercase;
+    font-size: 140%;
+    margin-bottom: 10px;
+}
+
+h4, p {
+    margin-bottom: 10px;
+    color: #58A399;
+}
+
+h5 {
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
 /* ------------------------------ header styles ------------------------------ */
 
 /* -------- header box styles ---------- */
@@ -145,7 +161,6 @@ main {
 #events img {
     max-width: 70vw;
     max-height: 70vh;
-
 }
 
 #events div {
@@ -159,17 +174,6 @@ main {
     width: 70vw;
     margin: auto;
     padding-bottom: 20px;
-}
-
-#events h3 {
-    text-transform: uppercase;
-    font-size: 140%;
-    margin-bottom: 10px;
-}
-
-#events h4 {
-    margin-bottom: 10px;
-    color: #58A399;
 }
 
 /* ------------------------------ sign up ------------------------------ */
@@ -217,6 +221,22 @@ main {
     background-color: #58A399;
 }
 
+/* ------------------------------ reading List ------------------------------ */
+#reading-list-main img {
+    max-width: 70vw;
+    max-height: 70vh;
+}
+
+#reading-list-main div {
+    text-align: center;
+    margin-top: 2rem;
+}
+/* ------ current book ------ */
+#current-book  p {
+    font-size: 150%;
+    width: 90%;
+    margin: auto;
+}
 /* ------------------------------ footer styles ------------------------------ */
 
 footer {

@@ -2,89 +2,102 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--- meta tags for search engine --->
-    <meta names="description"
-        content="the book Club, book club liverpool, crime thriller and fantasy, monthly book club">
-    <meta names="keywords"
-        content="the book club, liverpool book club, monthly book club, crime books, thriller books, fantasy books">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--- meta tags for search engine --->
+  <meta names="description" content="the book Club, book club liverpool, crime thriller and fantasy, monthly book club">
+  <meta names="keywords"
+    content="the book club, liverpool book club, monthly book club, crime books, thriller books, fantasy books">
 
-    <!--- Title --->
-    <title>The Book Club</title>
+  <!--- Title --->
+  <title>The Book Club</title>
 
-    <!--- Favicon --->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <!--- Favicon --->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-    <!--- stylesheet --->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!--- stylesheet --->
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <!------------------------------ header ------------------------------>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">The Book Club</h1>
-        </a>
-        <!--- nav toggle button-->
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <!--- navigation menu -->
-        <nav>
-            <ul id="navigation">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="readinglist.html" class="active">Reading List</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-                <li>
-                  <div class="socialmedia">
-                      <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                          aria-label="Visit our Facebook page (opens in a new tab)"><i
-                              class="fa-brands fa-facebook"></i></i></a>
-                      <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                          aria-label="Visit our Instagram page (opens in a new tab)"><i
-                              class="fa-brands fa-instagram"></i></a>
-                      <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                          aria-label="Visit our Twitter page (opens in a new tab)"><i
-                              class="fa-brands fa-x-twitter"></i></a>
-                      <a href="https://www.tiktok.com/" target="_blank" rel="noopener"
-                          aria-label="Visit our TikTok page (opens in a new tab)"><i
-                              class="fa-brands fa-tiktok"></i></a>
-                  </div>
-              </li>
-            </ul>
-        </nav>
+  <!------------------------------ header ------------------------------>
+  <header>
+    <a href="index.html">
+      <h1 id="logo">The Book Club</h1>
+    </a>
+    <!--- nav toggle button-->
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <!--- navigation menu -->
+    <nav>
+      <ul id="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="readinglist.html" class="active">Reading List</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li>
+          <div class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener"
+              aria-label="Visit our TikTok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </li>
+      </ul>
+    </nav>
 
-    </header>
+  </header>
 
-    <!------------------------------ Main Content ------------------------------>
-    <main>Main Content</main>
-
-    <!------------------------------ Footer ------------------------------>
-    <footer>
+  <!------------------------------ Main Content ------------------------------>
+  <main id="reading-list-main">
+    <section id="current-book">
       <div>
-          <h2>Opening times</h2>
-          <ul>
-              <li>Weekdays: 10am-8pm</li>
-              <li>Weekends: 9am-9pm</li>
-          </ul>
-          <h2>Accessibility</h2>
-          <p>We have a wheelchair ramp leading to main book shop and a larger toiler available</p>
+        <img src="assets/images/the-puppet-show.jpg" alt="The Puppet Show book cover by M. W. Craven ">
       </div>
-      <div>
-          <h2>Find us</h2>
-          <p>Address</p>
-          <h2>General enquiries</h2>
-          <p>Call us on 01234 567 890</p>
+      <div id="current-book-description">
+        <hr>
+        <h2>The Puppet Show</h2>
+        <h5>M. W. Craven</h5>
+        <div>
+          <a href="signup.html"><button class="signup-button">Sign up</button></a>
+        </div>
+        <hr>
+        <p>The Puppet Show is a wickedly, twisting and turning, mystery that will have readers breathlessly turning the
+          pages until the final shocking conclusion. A serial killer is burning people alive amongst ancient stone
+          circles in this deeply disturbing and thoroughly engrossing thriller.</p>
       </div>
+    </section>
+  </main>
+
+  <!------------------------------ Footer ------------------------------>
+  <footer>
+    <div>
+      <h2>Opening times</h2>
+      <ul>
+        <li>Weekdays: 10am-8pm</li>
+        <li>Weekends: 9am-9pm</li>
+      </ul>
+      <h2>Accessibility</h2>
+      <p>We have a wheelchair ramp leading to main book shop and a larger toiler available</p>
+    </div>
+    <div>
+      <h2>Find us</h2>
+      <p>Address</p>
+      <h2>General enquiries</h2>
+      <p>Call us on 01234 567 890</p>
+    </div>
   </footer>
 
-    
-      <!--- Social Media Icons --->
-      <script src="https://kit.fontawesome.com/8a7b4515d3.js" crossorigin="anonymous"></script>
+
+  <!--- Social Media Icons --->
+  <script src="https://kit.fontawesome.com/8a7b4515d3.js" crossorigin="anonymous"></script>
 
 </body>
 
