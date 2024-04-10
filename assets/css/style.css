@@ -96,6 +96,12 @@ nav {
 
 }
 
+/* ---- social media icons --- */
+.socialmedia {
+    display: flex;
+    gap:5px;
+}
+
 /* ------------------------------ main styles ------------------------------ */
 main {
     flex: 1 0 auto;
@@ -166,26 +172,10 @@ main {
     color:#58A399;
 }
 
-
-
-
-
-
 /* ------------------------------ footer styles ------------------------------ */
-.socialmedia {
-    border-top: 1px solid rgb(73, 105, 137);
-    padding: 16px 32px;
-    background-color: #58A399;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.socialmedia i {
-    font-size: 160%;
-    padding: 5px;
-    color: #E2F4C5;
-}
+
+
 
 /*---------------------------- media queries (tablets and larger:768px and up) ------------------------------ */
 
@@ -197,7 +187,7 @@ main {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 0.25rem;
 
     }
 
@@ -208,7 +198,7 @@ main {
 
     /* spread out navigation menu */
     #navigation>li {
-        padding-left: 1rem;
+        padding-left: 0.25rem;
         margin: 1rem;
     }
 
@@ -219,7 +209,7 @@ main {
 
     /* mkae logo syled better */
     #logo {
-        font-size: 240%;
+        font-size: 180%;
         line-height: 75px;
     }
 
