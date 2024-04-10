@@ -297,6 +297,7 @@ footer h2 {
     #events {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         width: 90%;
         flex: 1;
     }
@@ -306,7 +307,7 @@ footer h2 {
         max-height: 30vh;
     }
 
-    /* ------------------------------ Main Content ------------------------------ */
+    /* ------------------------------ footer ------------------------------ */
     footer {
         display: flex;
         flex-direction: row;
