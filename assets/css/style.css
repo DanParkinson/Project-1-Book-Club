@@ -78,7 +78,7 @@ header a {
 
 /* -- navigation underline active screen page -- */
 .active {
-    border-bottom: 1px solid rgb(226, 244, 197);
+    border-bottom: 1px solid black;
 }
 
 /* ---- navigation bar drop down menu ----- */
@@ -413,6 +413,6 @@ footer h2 {
 
 @media screen and (min-width: 992px) {
     #navigation a:hover {
-        border-bottom: 1px solid rgb(226, 244, 197);
+        border-bottom: 1px solid black;
     }
 }
