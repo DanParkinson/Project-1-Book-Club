@@ -32,10 +32,7 @@ h4 {
     color: #58A399;
 }
 
-h5 {
-    letter-spacing: 1px;
-    margin-top: 5px;
-}
+
 
 /* ------------------------------ header styles ------------------------------ */
 
@@ -262,6 +259,12 @@ button {
 
 .buy-button:hover {
     background-color: #58A399;
+}
+
+#future-book h3 {
+    font-size: 80%;
+    letter-spacing: 1px;
+    margin-top: 5px;
 }
 
 /* ------------------------------ footer styles ------------------------------ */
