@@ -42,7 +42,7 @@ h5 {
 /* -------- header box styles ---------- */
 header {
     background-color: rgb(88, 163, 153);
-    color: rgb(226, 244, 197);
+    color: black;
     padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
@@ -63,7 +63,6 @@ header a {
 #logo {
     padding-left: 10px;
     font-size: 180%;
-    color: rgb(226, 244, 197);
     letter-spacing: 1px;
 }
 
@@ -269,7 +268,7 @@ button {
 
 footer {
     background-color: rgb(88, 163, 153);
-    color: rgb(226, 244, 197);
+    color: black;
     letter-spacing: 1px;
     line-height: 30px;
 }
