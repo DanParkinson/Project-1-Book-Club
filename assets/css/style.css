@@ -146,7 +146,7 @@ main {
 }
 
 #cover-text p {
-    color:#ffffff;
+    color: #ffffff;
 }
 
 /* --------------- reasons --------------- */
@@ -227,6 +227,7 @@ main {
 }
 
 /* ------------------------------ reading List ------------------------------ */
+
 #reading-list-main img {
     max-width: 70vw;
     max-height: 70vh;
@@ -236,11 +237,18 @@ main {
     text-align: center;
     margin-top: 2rem;
 }
+
 /* ------ current book ------ */
-#current-book  p {
+#current-book p {
     font-size: 120%;
     width: 90%;
     margin: auto;
+}
+
+#current-book-description {
+    background-color: rgba(73, 105, 137, 0.8);
+    margin: 20px;
+    padding: 10px;
 }
 
 button {
@@ -251,11 +259,12 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
-  
-  .buy-button:hover {
+}
+
+.buy-button:hover {
     background-color: #58A399;
-  }
+}
+
 
 
 /* ------------------------------ footer styles ------------------------------ */
@@ -350,6 +359,20 @@ footer h2 {
 
     /* ------------------------------ reading list - current book ------------------------------ */
 
+    #current-book {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #current-book-image {
+        margin-left: 50px;
+    }
+
+    #current-book hr {
+        max-width: 30%;
+    }
 
 
     /* ------------------------------ footer ------------------------------ */
