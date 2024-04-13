@@ -32,8 +32,6 @@ h4 {
     color: #58A399;
 }
 
-
-
 /* ------------------------------ header styles ------------------------------ */
 
 /* -------- header box styles ---------- */
@@ -139,10 +137,6 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-}
-
-#cover-text p {
-    color: #ffffff;
 }
 
 /* --------------- reasons --------------- */
@@ -382,7 +376,8 @@ footer h2 {
     /* ------------------------------ reading list - future book ------------------------------ */
 
     #future-book {
-        max-height: 1000px; /*fix*/
+        max-height: 1000px;
+        /*fix*/
         max-width: 80%;
         margin: auto;
         display: flex;
@@ -393,12 +388,12 @@ footer h2 {
         gap: 5vw;
         text-align: center;
         padding-bottom: 40px;
-      }
-      
-      #future-book img {
+    }
+
+    #future-book img {
         max-width: 300px;
         max-height: 300px;
-      }
+    }
 
 
 
