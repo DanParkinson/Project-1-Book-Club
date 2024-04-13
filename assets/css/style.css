@@ -160,7 +160,7 @@ main {
 
 #events {
     letter-spacing: 1px;
-    font-size: 120%;
+    font-size: 100%;
     width: 70vw;
     margin: auto;
     padding-bottom: 20px;
@@ -346,14 +346,20 @@ footer h2 {
     #events {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
         width: 90%;
-        flex: 1;
+    }
+
+    #events div {
+        flex-basis: 100%;
+        max-width: 300px;
+        max-height: 300px;
     }
 
     #events img {
-        max-width: 30vw;
-        max-height: 30vh;
+        max-width: 200px;
+        max-height: 200px;
     }
 
     /* ------------------------------ reading list - current book ------------------------------ */
