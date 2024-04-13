@@ -103,7 +103,6 @@ nav {
 
 .nav-toggle-label {
     font-size: 1.5rem;
-
 }
 
 /* ---- social media icons --- */
@@ -293,7 +292,6 @@ footer h2 {
         box-shadow: none;
         width: fit-content;
         padding-right: 0.25rem;
-
     }
 
     /* align navigation along header */
@@ -379,7 +377,6 @@ footer h2 {
 
     #future-book {
         max-height: 1000px;
-        /*fix*/
         max-width: 80%;
         margin: auto;
         display: flex;
@@ -396,10 +393,6 @@ footer h2 {
         max-width: 300px;
         max-height: 300px;
     }
-
-
-
-
 
     /* ------------------------------ footer ------------------------------ */
     footer {
