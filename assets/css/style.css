@@ -1,11 +1,11 @@
-/* asterix removes defauly brower styles*/
+/* asterix removes defauly brower styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ------------------------------ General styles ------------------------------ */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -32,9 +32,9 @@ h4 {
     color: #58A399;
 }
 
-/* ------------------------------ header styles ------------------------------ */
+/* header styles */
 
-/* -------- header box styles ---------- */
+/* header box styles */
 header {
     background-color: rgb(88, 163, 153);
     color: black;
@@ -48,20 +48,20 @@ header {
     align-items: baseline;
 }
 
-/* ------- removes hyperlinks --------- */
+/* removes hyperlinks */
 header a {
     text-decoration: none;
     color: inherit;
 }
 
-/* --------- header Logo styles --------- */
+/* header Logo styles */
 #logo {
     padding-left: 10px;
     font-size: 180%;
     letter-spacing: 1px;
 }
 
-/* -- navigation bar styles and remove bulletpoints from list -- */
+/* navigation bar styles and remove bulletpoints from list */
 #navigation {
     font-size: 120%;
     letter-spacing: 2px;
@@ -69,17 +69,17 @@ header a {
 
 }
 
-/* ---- navigation spread out text ----- */
+/* navigation spread out text */
 #navigation>li {
     margin-bottom: 1em;
 }
 
-/* -- navigation underline active screen page -- */
+/* navigation underline active screen page */
 .active {
     border-bottom: 1px solid black;
 }
 
-/* ---- navigation bar drop down menu ----- */
+/* navigation bar drop down menu */
 nav {
     position: absolute;
     background-color: rgb(88, 163, 153);
@@ -91,12 +91,12 @@ nav {
     top: 100%;
 }
 
-/* ---------- navigation toggle --------- */
+/* navigation toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
 
-/* --- navigation hides the checkbox for the toggle ---- */
+/* navigation hides the checkbox for the toggle */
 #nav-toggle {
     display: none;
 }
@@ -105,19 +105,19 @@ nav {
     font-size: 1.5rem;
 }
 
-/* ---- social media icons --- */
+/* social media icons */
 .socialmedia {
     display: flex;
     gap: 5px;
 }
 
-/* ------------------------------ main styles ------------------------------ */
+/* main styles */
 main {
     flex: 1 0 auto;
     margin-top: 65px;
 }
 
-/* --------------- hero --------------- */
+/* hero */
 
 #hero {
     height: 600px;
@@ -138,7 +138,7 @@ main {
     padding-left: 10px;
 }
 
-/* --------------- reasons --------------- */
+/* reasons */
 
 #description {
     padding: 16px 32px;
@@ -149,7 +149,7 @@ main {
     color: rgb(73, 105, 137);
 }
 
-/* --------------- events --------------- */
+/* events */
 
 #events {
     letter-spacing: 1px;
@@ -168,7 +168,7 @@ main {
     text-align: center;
 }
 
-/* ------------------------------ sign up ------------------------------ */
+/* sign up */
 
 /* Form */
 #signup {
@@ -212,7 +212,7 @@ main {
     background-color: #58A399;
 }
 
-/* ------------------------------ reading List ------------------------------ */
+/* reading List */
 
 #reading-list-main img {
     max-width: 70vw;
@@ -224,7 +224,7 @@ main {
     margin-top: 2rem;
 }
 
-/* ------ current book ------ */
+/* current book */
 #current-book p {
     font-size: 120%;
     width: 90%;
@@ -262,7 +262,7 @@ button {
     max-height: 300px;
 }
 
-/* ------------------------------ footer styles ------------------------------ */
+/* footer styles */
 
 footer {
     background-color: rgb(88, 163, 153);
@@ -281,11 +281,11 @@ footer h2 {
     font-size: 200%;
 }
 
-/*---------------------------- media queries (tablets and larger:768px and up) ------------------------------ */
+/* media queries (tablets and larger:768px and up) */
 
 @media screen and (min-width: 768px) {
 
-    /* ------------------------------ header ------------------------------ */
+    /* header */
     nav {
         display: block;
         position: relative;
@@ -318,35 +318,34 @@ footer h2 {
 
 
 
-    /* ------------------------------ Main Content ------------------------------ */
+    /* Main Content */
 
     /* drop main content down accomodate larger header */
     main {
         margin-top: 108px;
     }
 
-    /* ----------- hero ---------- */
+    /* hero */
     #cover-text p {
         font-size: 120%;
     }
 
-    /* ----------- reasons ---------- */
+    /* reasons */
 
     #description {
         font-size: 180%;
     }
 
-    /* ----------- events ---------- */
+    /* events */
     #events {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-end;
         width: 90%;
     }
 
     #events div {
-        flex-basis: 100%;
         max-width: 300px;
         max-height: 300px;
     }
@@ -356,7 +355,7 @@ footer h2 {
         max-height: 200px;
     }
 
-    /* ------------------------------ reading list - current book ------------------------------ */
+    /* reading list - current book */
 
     #current-book {
         display: flex;
@@ -373,7 +372,7 @@ footer h2 {
         max-width: 30%;
     }
 
-    /* ------------------------------ reading list - future book ------------------------------ */
+    /* reading list - future book */
 
     #future-book {
         max-height: 1000px;
@@ -394,7 +393,7 @@ footer h2 {
         max-height: 300px;
     }
 
-    /* ------------------------------ footer ------------------------------ */
+    /*  footer */
     footer {
         display: flex;
         flex-direction: row;
@@ -406,7 +405,7 @@ footer h2 {
     }
 }
 
-/* ------------------------------ media queries (laptops and larger:992px and up) ------------------------------ */
+/* media queries (laptops and larger:992px and up) */
 
 @media screen and (min-width: 992px) {
     #navigation a:hover {
