@@ -237,7 +237,7 @@ main {
     padding: 10px;
 }
 
-button {
+.buy-button {
     background-color: rgb(226, 244, 197);
     color: black;
     padding: 15px 32px;

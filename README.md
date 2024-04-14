@@ -83,12 +83,18 @@ The webiste has information for users including: book club meeting times, the op
 
 ### Bugs 
 
+#### Home Page
 - The meta tags were improperly inputted. The correct element was 'name'. I had put 'names' across all pages. Now fixed.
 
 - One of the social media icons had an extra closing bracket. Now fixed.
 
 ![alt text](image-11.png)
 
+#### Reading List Page
+ - Button and anchors dont work together. I removed the button and styled the anchor like a button. 
+![alt text](image-12.png)
+
+- W3C validator now reurns no bugs
 
 ### Validator Testing 
 
