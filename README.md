@@ -74,7 +74,14 @@ The webiste has information for users including: book club meeting times, the op
 - A Book Club subscription page will allow members to join and get the books automatically. 
 - A drinks and food menu will be added.
 
-##Testing
+## Testing
+
+### Validator Testing 
+
+#### Html 
+
+#### CSS
+
 
 ##Deployment
 
