@@ -76,6 +76,20 @@ The webiste has information for users including: book club meeting times, the op
 
 ## Testing
 
+- I tested all pages load in Chrome, Firefox and Safari.
+- I confirmed the prject is responsive over all screen types
+- The header is easily accessable and readable across all screen types
+- I have confirmed the sign up form commits the appropraite feedback and no inputs can be left blank or without valid information
+
+### Bugs 
+
+- The meta tags were improperly inputted. The correct element was 'name'. I had put 'names' across all pages. Now fixed.
+
+- One of the social media icons had an extra closing bracket. Now fixed.
+
+![alt text](image-11.png)
+
+
 ### Validator Testing 
 
 #### Html 
