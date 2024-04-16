@@ -8,7 +8,7 @@ The Book Club aims to connect readers of the specified genres to each other in a
 The Book Club will keep users up to date on current and future reading material with links to buy the books.
 The book Club will improve profits of the book shop it is located in. When the book shops' website is live all purchase links will link to the book shop instead of Amazon.
 
-![alt text](image.png)
+![alt text](docs/readme-images/responsive-view.png)
 
 https://danparkinson.github.io/project-1-book-club/
 
@@ -57,7 +57,7 @@ People who are interested in Crime, Thriller or fantasy novels who would like to
  The [color hunt](https://colorhunt.co/) website was used to choose a colour scheme.
  The main colours chosen for the colour scheme was a mix of white and black as well as shades of green. Green is a relaxing colour which matches the theme of a comfortable book club. This gives users a relaxed feeling when visiting the site. The overall colour scheme was to make users relaxed. But by combining these with the choice of images created a mysterious persona that encourages users to delve deeper into the website. The images were chosen with consideration to the types of book genres that were chosen.
 
- ![alt text](colour-palette.png)
+ ![alt text](docs/readme-images/colour-palette.png)
 
  ### Wireframes
 
@@ -73,9 +73,9 @@ People who are interested in Crime, Thriller or fantasy novels who would like to
  - The navigation bar can be displayed across the header or as a drop-down menu to make the most of screen real estate. On larger screens all internal links are interactive when hovered over to tell users they are clickable links.
  - The colour scheme of dark green matches the book genres The Book Club read. 
 
-![alt text](image-1.png)
+![alt text](docs/readme-images/header-wide.png)
 
-![alt text](image-2.png)
+![alt text](docs/readme-images/header-narrow.png)
 
 ### The Landing page image
  - The landing page includes an image with text overlay to tell users the genre of books we are focusing on at the moment. A content box with a enthralling description of the currently read book will get users to continue further into the site.
@@ -83,7 +83,7 @@ People who are interested in Crime, Thriller or fantasy novels who would like to
  - The colour scheme of blacks, whites and greys matches the overall colour scheme of the website. 
  - On small devices the context box is only partially in view encouraging users to scroll down.
 
-![alt text](image-3.png)
+![alt text](docs/readme-images/hero.png)
 
 ### Reasons section
  - The reasons section includes a brief overview of the services the Book Club provides. 
@@ -91,21 +91,21 @@ People who are interested in Crime, Thriller or fantasy novels who would like to
  - A single sentence containing all information gives users instant gratification. 
  - The high contrast of white compared to the surrounding sections makes a clear separation of sections. 
 
-![alt text](image-4.png)
+![alt text](docs/readme-images/reasons.png)
 
 ### events section
  - The events section includes more detail of the services The Book Club provides. This includes the weekly meet up times, that hot drinks and food is provided and author reading times. 
  - The events are fully responsive across screen types to utilize screen real estate. 
  - Three simple black and white images are included to match the colour theme of the website. The paragraphs of text is the same colour as the heading to emphasise the importance as these include the meeting times. 
 
-![alt text](image-5.png)
+![alt text](docs/readme-images/events.png)
 
 ### Footer - contact information
 
  - The footer section includes all access information for the books shop where The Book Club is hosted. 
  - The footer is valuable as it tells users where to go, the opening times, any access issues that might be needed as well as a contact number. 
 
-![alt text](footer.png)
+![alt text](docs/readme-images/footer.png)
 
 ### Reading List
 
@@ -116,15 +116,15 @@ People who are interested in Crime, Thriller or fantasy novels who would like to
  - This is valuable to give users insight into future use and reminds them to sign up for more information. 
  - The buy button is there to encourage users to get involved straight away. The link is external to ensure the user stays on The Book Club page. It would link to the book shop page to buy if it existed but amazon was chosen for ease of use to the user. 
 
-![alt text](image-7.png)
-![alt text](image-8.png)
-![alt text](image-9.png)
+![alt text](docs/readme-images/reading-list-current.png)
+![alt text](docs/readme-images/reading-list-seperate.png)
+![alt text](docs/readme-images/reading-list-future.png)
 
 ### Signup page
 
  - This page allows users to get signed up to The Book Club and begin their involvement. They are asked to submit their first and last name as well as their email address. All boxes require accurate information and can't be submitted without valid inputs.
 
-![alt text](image-10.png)
+![alt text](docs/readme-images/sign-up.png)
 
 ### Future features
  - The buy now buttons will link to the book shop where it is hosted. 
@@ -136,7 +136,7 @@ People who are interested in Crime, Thriller or fantasy novels who would like to
  - I tested all page’s load in Chrome, Firefox and Safari.
  - I confirmed the project is responsive over all screen types.
 
-![alt text](testing-mobile.png) ![alt text](testing-tablet.png) ![alt text](testing-laptop.png) 
+![alt text](docs/readme-images/testing-mobile.png) ![alt text](docs/readme-images/testing-tablet.png) ![alt text](docs/readme-images/testing-laptop.png) 
 
  - The header is easily accessible and readable across all screen types.
  - I have confirmed the sign-up form commits the appropriate feedback and no inputs can be left blank or without valid information.
@@ -151,12 +151,12 @@ People who are interested in Crime, Thriller or fantasy novels who would like to
 
  - One of the social media icons had an extra closing bracket. Now fixed.
 
-![alt text](image-11.png)
+![alt text](docs/readme-images/bug-itag.png)
 
 #### Reading List Page
  - Button and anchors don’t work together. I removed the button and styled the anchor like a button. now fixed.
 
-![alt text](image-12.png)
+![alt text](docs/readme-images/bug-anchor-button.png)
 
 #### Sign up page
  - no errors found
@@ -175,7 +175,7 @@ People who are interested in Crime, Thriller or fantasy novels who would like to
 
  - The validator returned excellent results for lighthouse checks
 
- ![alt text](lighthouse-home.png) 
+ ![alt text](docs/readme-images/lighthouse-home.png) 
 
  ### Usability Testing
 
