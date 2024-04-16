@@ -1,148 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--- meta tags for search engine -->
+        <meta
+            name="description"
+            content="the book Club, book club, crime thriller and fantasy reading, monthly book club, bookopolis, author meetings "
+        />
+        <meta
+            name="keywords"
+            content="the book club, book club bookopolis, monthly book club, crime books, thriller books, fantasy books, m.w.craven, author meetings, author readings"
+        />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--- meta tags for search engine -->
-  <meta name="description"
-    content="the book Club, book club, crime thriller and fantasy reading, monthly book club, bookopolis, author meetings ">
-  <meta name="keywords"
-    content="the book club, book club bookopolis, monthly book club, crime books, thriller books, fantasy books, m.w.craven, author meetings, author readings">
+        <!--- Title -->
+        <title>The Book Club</title>
 
-  <!--- Title -->
-  <title>The Book Club</title>
+        <!--- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
-  <!--- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <!--- stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
 
-  <!--- stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <body>
+        <!--- header -->
+        <header>
+            <a href="index.html">
+                <h1 id="logo">The Book Club</h1>
+            </a>
+            <!--- nav toggle button -->
+            <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+            <label for="nav-toggle" class="nav-toggle-label"
+                ><i class="fa-solid fa-bars"></i
+            ></label>
+            <!--- navigation menu -->
+            <nav>
+                <ul id="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="readinglist.html" class="active"
+                            >Reading List</a
+                        >
+                    </li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li>
+                        <div class="socialmedia">
+                            <a
+                                href="https://www.facebook.com/"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Visit our Facebook page (opens in a new tab)"
+                                ><i class="fa-brands fa-facebook"></i
+                            ></a>
+                            <a
+                                href="https://www.instagram.com/"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Visit our Instagram page (opens in a new tab)"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                            <a
+                                href="https://www.twitter.com/"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Visit our Twitter page (opens in a new tab)"
+                                ><i class="fa-brands fa-x-twitter"></i
+                            ></a>
+                            <a
+                                href="https://www.tiktok.com/"
+                                target="_blank"
+                                rel="noopener"
+                                aria-label="Visit our TikTok page (opens in a new tab)"
+                                ><i class="fa-brands fa-tiktok"></i
+                            ></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-<body>
-  <!--- header -->
-  <header>
-    <a href="index.html">
-      <h1 id="logo">The Book Club</h1>
-    </a>
-    <!--- nav toggle button -->
-    <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-    <!--- navigation menu -->
-    <nav>
-      <ul id="navigation">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="readinglist.html" class="active">Reading List</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-        <li>
-          <div class="socialmedia">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-              aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-              aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-              aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.tiktok.com/" target="_blank" rel="noopener"
-              aria-label="Visit our TikTok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <!--- Main Content -->
+        <main id="reading-list-main">
+            <section id="current-book">
+                <div id="current-book-image">
+                    <img
+                        src="assets/images/the-puppet-show.webp"
+                        alt="The Puppet Show book cover by M. W. Craven "
+                    />
+                </div>
+                <div id="current-book-description">
+                    <hr />
+                    <h2>The Puppet Show</h2>
+                    <h3>M. W. Craven</h3>
+                    <hr />
+                    <p>
+                        The Puppet Show is a wickedly, twisting and turning,
+                        mystery that will have readers breathlessly turning the
+                        pages until the final shocking conclusion.
+                    </p>
+                    <div>
+                        <a
+                            href="https://www.amazon.co.uk/Puppet-Show-Washington-Poe/dp/1472127455"
+                            class="buy-button"
+                            target="_blank"
+                        >
+                            Buy the Book!</a
+                        >
+                    </div>
+                </div>
+            </section>
 
-  <!--- Main Content -->
-  <main id="reading-list-main">
-    <section id="current-book">
-      <div id="current-book-image">
-        <img src="assets/images/the-puppet-show.webp" alt="The Puppet Show book cover by M. W. Craven ">
-      </div>
-      <div id="current-book-description">
-        <hr>
-        <h2>The Puppet Show</h2>
-        <h3>M. W. Craven</h3>
-        <hr>
-        <p>The Puppet Show is a wickedly, twisting and turning, mystery that will have readers breathlessly turning the
-          pages until the final shocking conclusion. </p>
-        <div>
-          <a href="https://www.amazon.co.uk/Puppet-Show-Washington-Poe/dp/1472127455" class="buy-button" target="_blank">
-            Buy the Book!</a>
-        </div>
-      </div>
-    </section>
+            <section id="book-seperate">
+                <div id="description">
+                    <hr />
+                    <h2>Future books below for each month. Sign up to vote!</h2>
+                    <hr />
+                </div>
+            </section>
 
-    <section id="book-seperate">
-      <div id="description">
-        <hr>
-        <h2> Future books below for each month. Sign up to vote! </h2>
-        <hr>
-      </div>
-    </section>
+            <!--- future books -->
+            <section id="future-book">
+                <div class="future-list">
+                    <img
+                        src="assets/images/magic-medicine.webp"
+                        alt="Book Cover of Magic Medicine by Olena Nikitin"
+                    />
+                    <hr />
+                    <h2>Magic Medicine</h2>
+                    <h3>Olena Nikitin</h3>
+                    <hr />
+                    <div>
+                        <a
+                            href="https://www.amazon.co.uk/Magic-Medicine-Shifter-Fantasy-Romance-ebook/dp/B0CHMRFQ4Z"
+                            class="buy-button"
+                            target="_blank"
+                            >Buy the Book!</a
+                        >
+                    </div>
+                </div>
 
-    <!--- future books -->
-    <section id="future-book">
-      <div class="future-list">
-        <img src="assets/images/magic-medicine.webp" alt="Book Cover of Magic Medicine by Olena Nikitin">
-        <hr>
-        <h2>Magic Medicine</h2>
-        <h3>Olena Nikitin</h3>
-        <hr>
-        <div>
-          <a href="https://www.amazon.co.uk/Magic-Medicine-Shifter-Fantasy-Romance-ebook/dp/B0CHMRFQ4Z" class="buy-button"
-            target="_blank">Buy the Book!</a>
-        </div>
-      </div>
+                <div class="future-list">
+                    <img
+                        src="assets/images/babel.webp"
+                        alt="Picture of Book Cover of Babel by R. F. Kuang"
+                    />
+                    <hr />
+                    <h2>Babel</h2>
+                    <h3>R. F. Kuang</h3>
+                    <hr />
+                    <div>
+                        <a
+                            href="https://www.amazon.co.uk/Babel-Necessity-Violence-Translators-Revolution-ebook/dp/B09MJTDVTJ"
+                            class="buy-button"
+                            target="_blank"
+                            >Buy the Book!</a
+                        >
+                    </div>
+                </div>
 
-      <div class="future-list">
-        <img src="assets/images/babel.webp" alt="Picture of Book Cover of Babel by R. F. Kuang">
-        <hr>
-        <h2>Babel</h2>
-        <h3>R. F. Kuang</h3>
-        <hr>
-        <div>
-          <a href="https://www.amazon.co.uk/Babel-Necessity-Violence-Translators-Revolution-ebook/dp/B09MJTDVTJ" class="buy-button"
-            target="_blank">Buy the Book!</a>
-        </div>
-      </div>
+                <div class="future-list">
+                    <img
+                        src="assets/images/a-court-of-thorns-and-roses.webp"
+                        alt="Picture of book cover of A Court of Thorns and Roses by Sarah J. Maas"
+                    />
+                    <hr />
+                    <h2>A Court of Thorns and Roses</h2>
+                    <h3>Sarah J. Maas</h3>
+                    <hr />
+                    <div>
+                        <a
+                            href="https://www.amazon.co.uk/Court-Thorns-Roses-Sarah-Maas/dp/1526605392/ref=asc_df_1526605392/?tag=googshopuk-21&linkCode=df0&hvadid=435702107904&hvpos=&hvnetw=g&hvrand=11958159188823175780&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046330&hvtargid=pla-912493659533&psc=1&mcid=ef7e4c9d04d638d8b394002eeb32e6ca&th=1&psc=1&tag=&ref=&adgrpid=106813071968&hvpone=&hvptwo=&hvadid=435702107904&hvpos=&hvnetw=g&hvrand=11958159188823175780&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046330&hvtargid=pla-912493659533"
+                            class="buy-button"
+                            target="_blank"
+                            >Buy the Book!</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
 
-      <div class="future-list">
-        <img src="assets/images/a-court-of-thorns-and-roses.webp"
-          alt="Picture of book cover of A Court of Thorns and Roses by Sarah J. Maas">
-        <hr>
-        <h2>A Court of Thorns and Roses</h2>
-        <h3>Sarah J. Maas</h3>
-        <hr>
-        <div>
-          <a href="https://www.amazon.co.uk/Court-Thorns-Roses-Sarah-Maas/dp/1526605392/ref=asc_df_1526605392/?tag=googshopuk-21&linkCode=df0&hvadid=435702107904&hvpos=&hvnetw=g&hvrand=11958159188823175780&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046330&hvtargid=pla-912493659533&psc=1&mcid=ef7e4c9d04d638d8b394002eeb32e6ca&th=1&psc=1&tag=&ref=&adgrpid=106813071968&hvpone=&hvptwo=&hvadid=435702107904&hvpos=&hvnetw=g&hvrand=11958159188823175780&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046330&hvtargid=pla-912493659533"
-          class="buy-button" target="_blank">Buy the Book!</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!--- Footer -->
-  <footer>
-    <div>
-      <h2>Opening times</h2>
-      <ul>
-        <li>Weekdays: 10am-8pm</li>
-        <li>Weekends: 9am-9pm</li>
-      </ul>
-      <h2>Accessibility</h2>
-      <p>We have a wheelchair ramp leading to main book shop and a larger toilet available</p>
-    </div>
-    <div>
-      <h2>Find us</h2>
-      <p>123 Book Avenue, Bookopolis, BO12 3OK</p>
-      <h2>General enquiries</h2>
-      <p>Call us on 01234 567 890</p>
-    </div>
-  </footer>
-  <!--- Social Media Icons -->
-  <script src="https://kit.fontawesome.com/8a7b4515d3.js" crossorigin="anonymous"></script>
-</body>
-
+        <!--- Footer -->
+        <footer>
+            <div>
+                <h2>Opening times</h2>
+                <ul>
+                    <li>Weekdays: 10am-8pm</li>
+                    <li>Weekends: 9am-9pm</li>
+                </ul>
+                <h2>Accessibility</h2>
+                <p>
+                    We have a wheelchair ramp leading to main book shop and a
+                    larger toilet available
+                </p>
+            </div>
+            <div>
+                <h2>Find us</h2>
+                <p>123 Book Avenue, Bookopolis, BO12 3OK</p>
+                <h2>General enquiries</h2>
+                <p>Call us on 01234 567 890</p>
+            </div>
+        </footer>
+        <!--- Social Media Icons -->
+        <script
+            src="https://kit.fontawesome.com/8a7b4515d3.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
