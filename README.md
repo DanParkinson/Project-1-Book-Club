@@ -112,7 +112,7 @@ The webiste has information for users including: book club meeting times, the op
 
  - The validator returned excellent results for lighthouse checks
 
- ![alt text](image-13.png)
+ ![alt text](lighthouse.png)
 
 ## Deployment
 

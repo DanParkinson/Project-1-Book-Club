@@ -149,6 +149,10 @@ main {
     color: rgb(73, 105, 137);
 }
 
+#description h2 {
+    font-size: 100%;
+}
+
 /* events */
 
 #events {
