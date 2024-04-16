@@ -48,7 +48,7 @@ The webiste has information for users including: book club meeting times, the op
  - The footer section includes all access information for the books shop where The Book Club is hosted. 
  - The footer is valuable as it tells users where to go, the opening times, any access issues that might be needed as well as a contact number. 
 
-![alt text](image-6.png)
+![alt text](footer.png)
 
 ### Reading List
 
